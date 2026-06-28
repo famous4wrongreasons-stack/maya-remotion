@@ -1,0 +1,26 @@
+{
+  "name": "remotion-maya",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion — видео кодом на React",
+  "scripts": {
+    "dev": "remotion studio",
+    "studio": "remotion studio",
+    "render": "remotion render MAYAFilm out/maya-film.mp4",
+    "still": "remotion still MAYAFilm out/frame.png --frame=40",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.482",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.4.0"
+  }
+}
